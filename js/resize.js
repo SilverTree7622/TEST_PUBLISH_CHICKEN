@@ -70,9 +70,13 @@ tmpPhaserExample.webkitRequestFullscreen();
 window.onload = function () {
     tmpGameScene = game.scene.keys.default;
     // game.input.on('pointerdown', () => {
-        tmpGameScene.input.on('pointerdown', () => {
+    tmpGameScene.input.on('pointerdown', () => {
         console.log('pointer down then resize event');
         displayLandscapeMark();
     });
 }
 
+
+// export default function Resize () {
+//     console.log('in Resize function');
+// }

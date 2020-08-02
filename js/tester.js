@@ -1,4 +1,6 @@
-
+// import Resize from './resize.js';
+// console.log('Resize:', Resize);
+// Resize();
 
 var config = {
     type: Phaser.AUTO,
